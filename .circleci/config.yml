@@ -41,7 +41,7 @@ jobs:
         
       # run tests!run:
           
-      run:
+     - run:
           command: |
             . venv/bin/activate
             python html.py
